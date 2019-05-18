@@ -42,7 +42,7 @@ class NavBar extends React.Component {
         } else {
             userNavBarComp = (
                 <div className="div_hori_flex">
-                    <NavItem><NavLink href="/signup/">Sign up</NavLink></NavItem>
+                    <NavItem><NavLink className="test" href="/signup/">Sign up</NavLink></NavItem>
                     <NavItem><NavLink href='/login/'>Login</NavLink></NavItem>
                 </div>
             );
