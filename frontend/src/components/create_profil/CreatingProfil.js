@@ -29,7 +29,7 @@ export default class CreatingProfil extends Component {
         this.setState({
           component: <Step2 title={"Deuxième étape"} nextStep={this.nextStep} />
         })
-      }else if (step==3){
+      }else if (step == 3 || step > 3){
         this.setState({
           component: <Step3 title={"Troisième étape"} nextStep={this.nextStep} />
         })
