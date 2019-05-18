@@ -1,0 +1,10 @@
+lancer frontend:
+1/ cd frontend
+npm install
+npm start
+
+lancerbackend
+cd venv/Scripts
+activate
+cd ../../
+python manage.py runserver
