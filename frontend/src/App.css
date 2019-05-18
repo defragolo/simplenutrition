@@ -1,0 +1,47 @@
+#root {
+  min-height: 100vh;
+}
+
+.App {
+  min-height:100vh;
+  height: 100%;
+  width:100%;display:flex;
+}
+
+.home {
+ margin:2vh auto;
+  padding: 1em;
+}
+
+.button1{
+  padding:20px 10px 20px 10px;
+  text-decoration:none;
+  font-size:23px;
+  margin:auto;
+  max-width:200px;
+  text-align:center;
+  box-shadow:1px 2px 3px #CCCCCC;
+}
+
+.button1:hover{
+background-color:#E1E1E1;
+cursor:pointer;
+}
+
+.creatingProfil{
+  margin-top:2em;
+  padding:2vh;
+   border:1px solid#CCCCCC;
+  /*box-shadow:1px 1px 13px #999999;*/
+  border-radius: 6px;
+}
+
+.buttonSubmit{
+  padding:9px 15px 9px 15px;
+  background-color:#FFFFFF;
+  border:1px solid #DDDDDD;
+}
+
+.buttonSubmit:hover{
+  background-color: #CCCCCC;
+}
