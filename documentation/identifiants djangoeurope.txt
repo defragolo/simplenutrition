@@ -1,0 +1,4 @@
+serveur : sftp://s26.wservices.ch
+Identifiant : bdelpech
+mot de passe : Nutrideltagphy
+port : 22
